@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Stack Template</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/stack/Stack.xml">
+          <title>Grouping</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• carousel<br />• shelf layout<br />• grid layout<br />• hetrogeneous layout in a shelf<br />• hetrogeneous layout in a grid<br />• separator with text</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_1.xml">
+          <title>Banner, theme and background</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• banner with title<br />• background image<br />• theme: text colors for title, subtitle, description etc. are handled by the framework based on specified theme</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_2.xml">
+          <title>Hero image background</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack_2.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• banner with title<br />• blurred background image<br />• theme: text colors for title, subtitle, description etc. are handled by the framework based on specified theme</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_3.xml">
+          <title>Overlay with blurred visual effect</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack_3.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• banner with title<br />• overlay with blurred visual effect</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_4.xml">
+            <title>Identity banner</title>
+            <relatedContent>
+              <lockup>
+                <img src="/resources/images/screenshots/stack_4.png" width="857" height="482" />
+                <description class="descriptionLayout">This example demonstrates::<br />• A banner with an image and focusable items</description>
+              </lockup>
+            </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_5.xml">
+          <title>Banner image with blended background</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack_5.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• background color blending into banner image</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Stack_6.xml">
+          <title>Separator with button</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack_6.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• separator with button</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+   <showcaseTemplate mode="showcase oneup">
+      <background>
+         <img src="/resources/images/background/bg_dark.jpg" />
+      </background>
+      <banner>
+         <title>Showcase Title</title>
+         <row>
+            <button slideshowImageURLs="/resources/images/background/background.jpg /resources/images/background/background_1.jpg /resources/images/background/background_2.jpg /resources/images/background/background_3.jpg">
+               <text>Slideshow</text>
+            </button>
+         </row>
+      </banner>
+      <carousel>
+         <section>
+            <lockup>
+               <img src="/resources/images/background/background.jpg" width="824" height="466" />
+               <fullscreenImg src="/resources/images/background/background.jpg" />
+               <title>Title 1</title>
+               <subtitle>Subtitle</subtitle>
+               <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus turpis, luctus eget auctor ut, convallis dictum nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sit amet ullamcorper eros.</description>
+            </lockup>
+            <lockup>
+               <img src="/resources/images/background/background_1.jpg" width="824" height="466" />
+               <fullscreenImg src="/resources/images/background/background_1.jpg" />
+               <title>Title 2</title>
+               <subtitle>Subtitle</subtitle>
+               <description>Proin iaculis, orci eget tristique ultrices, ex velit fringilla lorem, vel finibus nulla felis a ipsum. Nulla ullamcorper neque vitae mauris dignissim condimentum vel in orci. Nullam at nunc mollis neque malesuada iaculis non non erat. Sed sed arcu cursus, fermentum dolor eu, pharetra ante. Mauris diam ipsum, pulvinar elementum libero in, vehicula fermentum sem. Nulla sed lorem tellus. Sed euismod pharetra nulla a efficitur. Pellentesque vel dui eros. Duis vel urna laoreet ex vehicula auctor. In luctus, sapien sed laoreet aliquet, erat orci cursus nunc, eget luctus ex urna et neque.</description>
+            </lockup>
+            <lockup>
+               <img src="/resources/images/background/background_2.jpg" width="824" height="466" />
+               <fullscreenImg src="/resources/images/background/background_2.jpg" />
+               <title>Title 3</title>
+               <subtitle>Subtitle</subtitle>
+               <description>Suspendisse porta nulla ligula. Suspendisse potenti. Vestibulum ac venenatis elit. Donec dapibus, massa et laoreet tempor, augue dolor feugiat elit, et pharetra odio dolor vitae orci. Maecenas eget nisl dolor.</description>
+            </lockup>
+            <lockup>
+               <img src="/resources/images/background/background_3.jpg" width="824" height="466" />
+               <fullscreenImg src="/resources/images/background/background_3.jpg" />
+               <title>Title 4</title>
+               <subtitle>Subtitle</subtitle>
+               <description>Duis sagittis auctor mauris vel fringilla. Cras lacus ante, luctus non lorem non, elementum dignissim ligula.</description>
+            </lockup>
+         </section>
+      </carousel>
+   </showcaseTemplate>
+</document>

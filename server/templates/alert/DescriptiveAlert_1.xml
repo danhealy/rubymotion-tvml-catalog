@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .showTextOnHighlight {
+        tv-text-highlight-style: show-on-highlight;
+      }
+    </style>
+  </head>
+  <descriptiveAlertTemplate>
+    <title>Title</title>
+    <shelf>
+      <section>
+        <lockup>
+          <img src="/resources/images/lockups/square_1.jpg" width="450" height="450" />
+          <title class="showTextOnHighlight">Title 1</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_2.jpg" width="450" height="450" />
+          <title class="showTextOnHighlight">Title 2</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_3.jpg" width="450" height="450" />
+          <title class="showTextOnHighlight">Title 3</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_4.jpg" width="450" height="450" />
+          <title class="showTextOnHighlight">Title 4</title>
+        </lockup>
+      </section>
+    </shelf>
+    <button>
+      <text>Button 1</text>
+    </button>
+    <button>
+      <text>Button 2</text>
+    </button>
+  </descriptiveAlertTemplate>
+</document>

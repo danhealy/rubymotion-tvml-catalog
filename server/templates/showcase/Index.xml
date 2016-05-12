@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Showcase Template</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/showcase/Showcase.xml">
+          <title>Showcase template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/showcase.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the showcase template to display a row of images with descriptions associated with each image; for example, displaying a set of screenshots to promote a movie.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/showcase/ShowcaseOneup.xml">
+          <title>Showcase template with oneup</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/showcase.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• mode attribute to specify oneup <br />• fullscreenImg element to specify the image to be displayed in oneup</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

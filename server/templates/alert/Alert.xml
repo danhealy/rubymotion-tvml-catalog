@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<head>
+	</head>
+	<alertTemplate>
+	    <title>Title</title>
+	    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+		<button>
+			<text>Button 1</text>
+		</button>
+		<button>
+			<text>Button 2</text>
+		</button>
+	    <text>Additional Text 1</text>
+	    <text>Additional Text 2</text>
+	</alertTemplate>
+</document>
+

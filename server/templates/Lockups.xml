@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<head>
+		<style>
+			.carouselOverlay {
+				padding:180 90 0 1100;
+			}
+			.carouselOverlayImg {
+				tv-position: top-left; 
+				margin: 0 20 0 0;
+			}
+			.carouselOverlayTitle {
+				tv-position: top;
+				tv-align: left; 
+				margin: 36 0 0;
+			}
+			.carouselOverlaySubtitle {
+				tv-position: top; 
+				tv-align: left;
+			}
+			.carouselOverlayText {
+				tv-position: footer; 
+				tv-align: left; 
+				tv-text-max-lines: 3; 
+				margin: 0 0 38;
+			}
+
+			.carouselOverlayImg2 {
+				tv-position: bottom-left; 
+				margin: 0 20 0 0;
+			}
+
+			.progressOverlay {
+				padding: 0;
+			}
+			.watchedOverlayImg {
+				tv-position: bottom-right;
+				tv-align: right;
+			}
+
+			.imgGradient {
+				tv-tint-color: linear-gradient(top, 0.37, transparent, 0.5, rgba(61,101,128,0.5), 0.96, rgba(61,101,128,1.0), rgba(61,101,128,1.0));
+			}
+			.gradientOverlayTitle {
+				tv-text-max-lines: 1;
+				tv-text-style: body;
+				padding: 30;
+				text-align: center;
+				color: rgba(255, 255, 255, 1.0);
+			}
+			.gradientOverlaySubtitle {
+				color: rgba(255, 255, 255, 0.6);
+				tv-text-style: caption2;
+				tv-text-max-lines: 1;
+				margin: 6 0 -6 0;
+				text-align: center;
+			}
+
+			.simpleCard {
+				width: 548;
+				height: 250;
+				background-color: rgba(255, 255, 255, 0.5);
+                tv-highlight-color: rgba(255, 255, 255, 0.9);
+
+			}
+			.simpleCardTitle {
+				tv-position: center;
+				color: rgba(0, 0, 0, 0.6);
+				tv-text-style: headline;
+				tv-text-max-lines: 1;
+				text-align: center;
+			}
+			.simpleCardSubtitle {
+				tv-position: center;
+				color: rgba(0, 0, 0, 0.4);
+				tv-text-style: subtitle3;
+				tv-text-max-lines: 1;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<stackTemplate>
+		<collectionList>
+			<carousel>
+				<section>
+					<lockup>
+						<img src="/resources/images/carousel/carousel_1.lcr" width="1740" height="500" />
+						<overlay>
+							<title>Overlay Title</title>
+							<subtitle>Overlay Subtitle</subtitle>
+						</overlay>
+					</lockup>
+					<lockup>
+						<img src="/resources/images/carousel/carousel_2.lcr" width="1740" height="500" />
+						<overlay class="carouselOverlay">
+							<img class="carouselOverlayImg" src="/resources/images/lockups/square_1.jpg" width="160" height="160"/>
+							<title class="carouselOverlayTitle">Overlay Title</title>
+							<subtitle class="carouselOverlaySubtitle">Overlay Subtitle</subtitle>
+							<text class="carouselOverlayText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</text>
+						</overlay>
+					</lockup>
+					<lockup>
+						<img src="/resources/images/carousel/carousel_3.lcr" width="1740" height="500" />
+						<overlay>
+							<img class="carouselOverlayImg2" src="/resources/images/lockups/square_2.jpg" width="130" height="130"/>
+							<title >Overlay Title</title>
+							<subtitle>Overlay Subtitle</subtitle>
+						</overlay>
+					</lockup>
+				</section>
+			</carousel>
+			<shelf>
+				<header>
+					<title>Progress Bar &amp; Watched Overlay</title>
+				</header>
+
+				<section>
+					<lockup>
+						<img src="/resources/images/lockups/episode_1.jpg" width="308" height="175" />
+						<title>Progress Bar</title>
+						<overlay class="progressOverlay">
+							<progressBar value="0.1"/>
+						</overlay>
+					</lockup>
+					<lockup>
+						<img src="/resources/images/lockups/episode_2.jpg" width="308" height="175" />
+						<title>Watched Episode</title>
+						<overlay class="progressOverlay">
+							<badge class="watchedOverlayImg" src="resource://overlay-checkmark"/>
+						</overlay>
+					</lockup>
+				</section>
+			</shelf>
+			<shelf>
+				<header>
+					<title>Gradients</title>
+				</header>
+				<section>
+					<lockup>
+						<img class="imgGradient" src="/resources/images/lockups/featured_1.jpg" width="548" height="250" />
+						<overlay>
+							<title class="gradientOverlayTitle">Overlay Title</title>
+							<subtitle class="gradientOverlaySubtitle">Overlay Subtitle</subtitle>
+						</overlay>
+					</lockup>
+				</section>
+			</shelf>
+			<shelf>
+				<header>
+					<title>Cards</title>
+				</header>
+				<section>
+					<card class="simpleCard">
+						<title class="simpleCardTitle">Title</title>
+						<subtitle class="simpleCardSubtitle">Subtitle</subtitle>
+					</card>
+				</section>
+			</shelf>
+		</collectionList>
+	</stackTemplate>
+</document>

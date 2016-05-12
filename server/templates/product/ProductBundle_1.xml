@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .badge {
+      tv-tint-color: rgb(0,0,0);
+    }
+    .5ColumnGrid {
+      tv-interitem-spacing: 50;
+    }
+    </style>
+  </head>
+  <productBundleTemplate theme="light">
+    <background>
+      <img src="/resources/images/background/bg_product_uber.jpg" />
+    </background>
+    <banner>
+      <stack>
+        <title>Title</title>
+        <subtitle>Subtitle</subtitle>
+        <row> 
+          <text>Text 1</text>
+          <text>Text 2</text>
+          <badge src="resource://tv-14" class="badge" />
+          <badge src="resource://hd" class="badge" />
+        </row>
+
+        <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+        <row>
+          <buttonLockup>
+            <badge src="resource://button-preview" />
+            <title>Title 1</title>
+          </buttonLockup>
+          <buttonLockup>
+            <badge src="resource://button-play" />
+            <title>Title 2</title>
+          </buttonLockup>
+          <buttonLockup>
+            <badge src="resource://button-add" />
+            <title>Title 3</title>
+          </buttonLockup>
+        </row>
+      </stack>
+    </banner>
+    <shelf class="5ColumnGrid">
+      <header>
+        <title>Shelf Header (308x175, 5 Column Grid, 50 spacing)</title>
+      </header>
+      <section>
+        <lockup>
+          <img src="/resources/images/lockups/episode_1.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 1</title>
+          <overlay>
+            <progressBar value="0.1" />
+          </overlay>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 1”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/episode_2.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 2</title>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 2”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/episode_3.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 3</title>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 3”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/episode_4.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 4</title>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 4”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/episode_5.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 5</title>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 5”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/episode_6.jpg" width="308" height="175" />
+          <title class="showTextOnHighlight">Title 6</title>
+          <relatedContent>
+            <infoTable>
+              <header>
+                <title>“Title 6”</title>
+              </header>
+
+              <info>
+                <header>
+                </header>
+                <row>
+                  <text>Text 1</text>
+                  <text>Text 2</text>
+                  <badge src="resource://tv-14" class="badge" />
+                  <badge src="resource://cc" class="badge" />
+                </row>
+              </info>
+
+              <info>
+                <header>
+                  <title>Text 1&#xD;Text 2&#xD;Text 3</title>
+                </header>
+                <description allowsZooming="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</description>
+              </info>
+            </infoTable>
+          </relatedContent>
+        </lockup>
+      </section>
+    </shelf>
+    <shelf>
+      <header>
+        <title>Shelf Header</title>
+      </header>
+      <section>
+        <lockup>
+          <img src="/resources/images/lockups/square_1.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 1</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_2.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 2</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_3.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 3</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_4.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 4</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_5.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 5</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_6.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 6</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_7.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 7</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_8.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 8</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_9.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 9</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/square_10.jpg" width="172" height="172" />
+          <title class="showTextOnHighlight">Title 10</title>
+        </lockup>
+      </section>
+    </shelf>
+    <shelf>
+      <header>
+        <title>Reviews &amp; Ratings</title>
+      </header>
+      <section>
+        <ratingCard>
+          <title>4.1 / 5</title>
+          <ratingBadge value="0.7"></ratingBadge>
+          <description>Average of 2,241 iTunes user ratings and reviews.</description>
+        </ratingCard>
+        <reviewCard>
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Stephanie Vidal Dec, 24 2015</text>
+        </reviewCard>
+        <reviewCard>
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Euna Kwon Dec, 5 2015</text>
+        </reviewCard>
+        <reviewCard>
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Paul Cashman <date>Dec, 10 2015</date></text>
+        </reviewCard>
+      </section>
+    </shelf>
+    <shelf>
+      <header>
+        <title>Shelf Header</title>
+      </header>
+      <section>
+        <monogramLockup>
+          <monogram src="/resources/images/lockups/square_1.jpg" />
+          <title>Adam Gooseff</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram src="/resources/images/lockups/square_2.jpg" />
+          <title>Ailish Kimber</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Allen" lastName="Buchinski" />
+          <title>Allen Buchinski</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Dave" lastName="Elfving" />
+          <title>Dave Elfving</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Ethan" lastName="Izzarelli" />
+          <title>Ethan Izzarelli</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Euna" lastName="Kwon" />
+          <title>Euna Kwon</title>
+          <subtitle>Director</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Fritz" lastName="Ogden" />
+          <title>Fritz Ogden</title>
+          <subtitle>Director</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Gilbert" lastName="Solano" />
+          <title>Gilbert Solano</title>
+          <subtitle>Director</subtitle>
+        </monogramLockup>
+      </section>
+    </shelf>
+
+    <separator />
+    
+    <productInfo>
+      <infoTable>
+        <header>
+          <title>Header</title>
+        </header>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <info>
+          <header>
+            <title>Header</title>
+          </header>
+          <text>Text</text>
+        </info>
+        <footer>
+          <text>Footer Text</text>
+        </footer>
+      </infoTable>
+      <infoTable>
+        <header>
+          <title>Header</title>
+        </header>
+        <info>
+          <header>
+            <badge src="resource://cc" class="badge" />
+          </header>
+          <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</text>
+        </info>
+      </infoTable>
+      <infoTable>
+        <header>
+          <title>Header</title>
+        </header>
+        <info>
+          <header>
+            <title>Title</title>
+          </header>
+          <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</text>
+        </info>
+      </infoTable>
+    </productInfo>
+  </productBundleTemplate>
+</document>

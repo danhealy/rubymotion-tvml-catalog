@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Products</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/product/Product.xml">
+          <title>Product template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/product.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the product template to display detailed information about a product; for example, a page that describes a movie, including information about the actors, ratings, and like movies.<br /><br />This example demonstrates:<br />• review and rating cards<br />• monograms</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/product/Product_1.xml">
+          <title>Product template with background image</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/product_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• light theme <br />• background image</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/product/ProductBundle.xml">
+          <title>Product bundle template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/product_bundle.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the product bundle template to display detailed information about a product bundle; for example, a page that describes a television series, including information about the actors, ratings, and series episodes.<br /><br />This example demonstrates:<br />• review and rating cards<br />• monograms</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/product/ProductBundle_1.xml">
+          <title>Product bundle template with background image</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/product_bundle_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• light theme <br />• background image</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

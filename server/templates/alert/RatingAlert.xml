@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<ratingTemplate>
+	    <title>Rate Lorem Ipsum</title>
+	    <!-- Add event listener of type "change" which will be called if user rates. the new value is in event dictionary which is a value between 0.2 (1 star) - 1.0 (5 stars) -->
+	    <ratingBadge value="0.6"></ratingBadge>
+	</ratingTemplate>
+</document>

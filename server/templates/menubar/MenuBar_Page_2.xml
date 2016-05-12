@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<head>
+		<style>
+			.banner {
+				height: 1080;
+				padding:0 180;
+			}
+			.title {
+				tv-position: center;
+				tv-text-style: title1;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.6);
+			}
+			.subtitle {
+				tv-position: center;
+				tv-text-style: subtitle1;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.4);
+			}
+			.description {
+				tv-position: center;
+				tv-text-style: body;
+				tv-text-max-lines: 2;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.4);
+			}
+		</style>
+	</head>
+	<stackTemplate>
+	    <banner class="banner">
+	    	<title class="title">Page 2</title>
+	        <subtitle class="subtitle">MenuBar_Page_2.xml</subtitle>
+	        <description class="description" allowsZooming="true">• This document was fetched and associated with menuItem before the menuBar document was pushed on stack&#xA;• autoHighlight attribute to specify initial focus<br /><br /></description>
+	    </banner>
+	</stackTemplate>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+   <head>
+      <style>
+         * {
+            tv-transition: push;
+         }
+      </style>
+   </head>
+   <oneupTemplate mode="oneup caption">
+      <section>
+         <lockup>
+            <img src="/resources/images/background/background.jpg" />
+            <title>Title 1</title>
+            <subtitle>Subtitle</subtitle>
+         </lockup>
+         <lockup>
+            <img src="/resources/images/background/background_1.jpg" />
+            <title>Title 2</title>
+            <subtitle>Subtitle</subtitle>
+         </lockup>
+         <lockup>
+            <img src="/resources/images/background/background_2.jpg" />
+            <title>Title 3</title>
+            <subtitle>Subtitle</subtitle>
+         </lockup>
+         <lockup>
+            <img src="/resources/images/background/background_3.jpg" />
+            <title>Title 4</title>
+            <subtitle>Subtitle</subtitle>
+         </lockup>
+      </section>
+   </oneupTemplate>
+</document>

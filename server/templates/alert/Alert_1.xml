@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+    <alertTemplate>
+        <background>
+            <img src="/resources/images/background/bg_dark.jpg" />
+        </background>
+        <title>Title</title>
+        <button>
+            <text>Button 1</text>
+        </button>
+        <button>
+            <text>Button 2</text>
+        </button>
+        <button disabled="true">
+            <text>Button 3</text>
+        </button>
+        <button>
+            <text>Button 4</text>
+        </button>
+        <button>
+            <text>Button 5</text>
+        </button>
+        <button autoHighlight="true">
+            <text>Button 6</text>
+            <badge src="resource://button-checkmark" style="margin:0 -20 0 20;" />
+        </button>
+        <button>
+            <text>Button 7</text>
+        </button>
+        <button>
+            <text>Button 8</text>
+        </button>
+        <button>
+            <text>Button 9</text>
+        </button>
+        <button>
+            <text>Button 10</text>
+        </button>
+        <button>
+            <text>Button 11</text>
+        </button>
+        <button>
+            <text>Button 12</text>
+        </button>
+        <button>
+            <text>Button 13</text>
+        </button>
+        <button>
+            <text>Button 14</text>
+        </button>
+        <button>
+            <text>Button 15</text>
+        </button>
+    </alertTemplate>
+</document>

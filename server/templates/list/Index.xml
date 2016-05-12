@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Lists</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/list/Lockups.xml">
+          <title>Lockup items</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_lockups.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• default list lockups <br />• custom list lockups</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/list/Parade.xml">
+          <title>Parade template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_parade.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the parade template to display a list of automatically scrolling, static images on the left that are associated with a selected category in the list.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/list/Catalog.xml">
+          <title>Catalog template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_catalog.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the catalog template to display information about groups of like products; for example, a movie catalog that provides categories for dramas, comedies, and all movies.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/list/Compilation.xml">
+          <title>Compilation template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_compilation.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the compilation template to display information about one product that is made up of several distinct pieces; for example, an album and all of the songs that it contains.<br /><br />This example demonstrates:<br />• hero image to create a blurred background<br />• dark theme <br />• autoHighlight attribute to specify initial focus</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/list/Compilation_1.xml">
+          <title>Compilation template with background image</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_compilation_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• background image <br />• light theme</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup listDocumentURL="/templates/list/SegmentBar.xml">
+          <title>Segment bar header</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/segmentbar.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• categorized lists using a segment bar</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup listDocumentURL="/templates/list/Tumbler.xml">
+          <title>Tumbler header</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/tumbler.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• categorized lists using a tumbler</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

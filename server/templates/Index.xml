@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>TVML Catalog</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/alert/Index.xml">
+          <title>Alerts</title>
+          <decorationImage src="resource://chevron" />
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/alert.png" width="857" height="482" />
+              <description class="descriptionLayout">Use alerts to present information or present actions that user has to take.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/Form.xml">
+          <title>Form template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/form.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the form template to gather information from the user; for example, requiring a password to access your app.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/list/Index.xml">
+          <title>Lists</title>
+          <decorationImage src="resource://chevron" />
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/list_compilation.png" width="857" height="482" />
+              <description class="descriptionLayout">Use list templates to display a list of items; for example, a list of the user’s favorite movies, songs in an album or playlist.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/Loading.xml">
+          <title>Loading template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/loading.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the loading template to display a spinner and description of why the spinner is being displayed; for example, an interim page showing that the requested page is being loaded.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/Lockups.xml">
+          <title>Lockups</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/lockups.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• lockup overlays <br />• cards</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/Main.xml">
+          <title>Main template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/main.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the main template to display options to the user; for example, the main page for a movie with options to play the movie, see extra content, and jump to specific scenes.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup menuBarDocumentURL="/templates/menubar/MenuBar.xml">
+          <title>Menu bar template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/menubar.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the menu bar template to display a list of selectable items across the top of the screen. Users can move between menu bar items to change the information displayed below the menu bar.<br /><br />This example demonstrates:<br />• Pre-loading the child document (associated with menuItem) before presenting the menu bar template.<br />• Initial focus on second menu item.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/Oneup.xml">
+          <title>Oneup template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/oneup.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the oneup template to display a single, full-screen image. Users can navigate left or right on the remote to select another image. Activating an up action on the remote will shrink the image and allow a description to be displayed.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/product/Index.xml">
+          <title>Products</title>
+          <decorationImage src="resource://chevron" />
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/product_1.png" width="857" height="482" />
+              <description class="descriptionLayout">Use product templates to display detailed information about a product.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup searchDocumentURL="/templates/Search.xml">
+          <title>Search template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/search.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the search template to display a text field that takes user input in order to search for a specific item; for example, looking for a specific movie. Developers can also display preselected results in a shelf, list, or collectionList element under the search field.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/showcase/Index.xml">
+          <title>Showcase template</title>
+          <decorationImage src="resource://chevron" />
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/showcase.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the showcase template to display a row of images with descriptions associated with each image; for example, displaying a set of screenshots to promote a movie.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/stack/Index.xml">
+          <title>Stack template</title>
+          <decorationImage src="resource://chevron" />
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/stack.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the stack template to display groups of products; for example, displaying different genres of movies. Each group of products is displayed directly underneath the previous group. Products can be displayed in different ways using carousel, grid, and shelf elements.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

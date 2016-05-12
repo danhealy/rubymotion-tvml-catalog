@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<head>
+		<style>
+			.banner {
+				height: 1080;
+				padding:0 180;
+			}
+			.title {
+				tv-position: center;
+				tv-text-style: title1;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.6);
+			}
+			.subtitle {
+				tv-position: center;
+				tv-text-style: subtitle1;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.4);
+			}
+			.description {
+				tv-position: center;
+				tv-text-style: body;
+				tv-text-max-lines: 2;
+				text-align: left;
+				color: rgb(0, 0, 0, 0.4);
+			}
+		</style>
+	</head>
+	<stackTemplate>
+	    <banner class="banner">
+	    	<title class="title">Page 3</title>
+	        <subtitle class="subtitle">MenuBar_Page_3.xml</subtitle>
+	        <description allowsZooming="true" class="description">Lorem ipsum dolor sit amet, ligula suspendisse nulla pretium, rhoncus tempor placerat fermentum, enim integer ad vestibulum volutpat. Nisl rhoncus turpis est, vel elit, congue wisi enim nunc ultricies sit, magna tincidunt. Maecenas aliquam maecenas ligula nostra, accumsan taciti. Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. Enim eros in vel, volutpat nec pellentesque leo, temporibus scelerisque nec.</description>
+	    </banner>
+	</stackTemplate>
+</document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8;
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Alerts</title>
+      </header>
+      <section>
+        <listItemLockup modalDocumentURL="/templates/alert/Alert.xml">
+          <title>Alert template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/alert.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the alert template to display important information, such as a message telling the user to perform an action before continuing.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup modalDocumentURL="/templates/alert/Alert_1.xml">
+          <title>Alert template with background image</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/alert_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• background image<br />• list of buttons<br />• autoHighlight attribute to specify initial focus<br />• checkmark accessory<br />• disabled button state</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup modalDocumentURL="/templates/alert/DescriptiveAlert.xml">
+          <title>Descriptive alert template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/descriptiveAlert.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the descriptive alert templatt to display a significant amount of important information, such as a Terms of Service page.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup modalDocumentURL="/templates/alert/DescriptiveAlert_1.xml">
+          <title>Descriptive alert template with shelf</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/descriptiveAlert_1.png" width="857" height="482" />
+              <description class="descriptionLayout">This example demonstrates:<br />• items in a shelf</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup modalDocumentURL="/templates/alert/RatingAlert.xml">
+          <title>Rating template</title>
+          <relatedContent>
+            <lockup>
+              <img src="/resources/images/screenshots/rating.png" width="857" height="482" />
+              <description class="descriptionLayout">Use the rating template to display a rating for an item.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <loadingTemplate>
+    <activityIndicator>
+      <title>Loading...</title>
+    </activityIndicator>
+  </loadingTemplate>
+</document>

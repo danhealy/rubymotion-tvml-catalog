@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+    .twoLineHeight {
+      height:90;
+    }
+    .customRightTextImage {
+      tv-position: right;
+      margin: 0 20;
+    }
+    .customRightText {
+      tv-text-style:caption1;
+      color: rgba(0, 0, 0, 0.6);
+      text-align: right;
+      tv-text-max-lines: 1;
+      margin: 0 20;
+    }
+    .customRow {
+      tv-position: center;
+      tv-interitem-spacing: 12;
+      margin: 0 0 0 20;
+    }
+    .customRowText {
+      tv-text-style:caption1;
+      color: rgba(0, 0, 0, 0.6);
+      text-align: left;
+      tv-text-max-lines: 1;
+      tv-position: center;
+      tv-align: left;
+    }
+    .centerText {
+      text-align: center;
+    }
+    .interImageText {
+      tv-text-style:caption1;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 10;
+    }
+    .tallListItemLockup {
+      height: 90;
+    }
+    .leftAligned {
+      tv-position: left;
+    }
+    .footerText {
+      tv-position: footer;
+      tv-text-style: footnote;
+    }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Lockup items</title>
+      </header>
+      <section>
+        <listItemLockup>
+          <title>Title</title>
+        </listItemLockup>
+        <listItemLockup>
+          <title>Title</title>
+          <subtitle>Subtitle</subtitle>
+        </listItemLockup>
+        <listItemLockup>
+          <title>Accessory Reource</title>
+          <decorationImage src="resource://chevron" />
+        </listItemLockup>
+        <listItemLockup>
+          <title>Accessory Text</title>
+          <decorationLabel>Right</decorationLabel>
+        </listItemLockup>
+        <listItemLockup>
+          <img src="/resources/images/lockups/square_5.jpg" width="90" height="90" />
+          <title>Title</title>
+        </listItemLockup>
+        <listItemLockup>
+          <img src="/resources/images/lockups/movie_list.jpg" width="90" height="135" />
+          <title>Title</title>
+        </listItemLockup>
+        <listItemLockup>
+          <img src="/resources/images/lockups/movie_list.jpg" width="90" height="135" />
+          <title>Title</title>
+          <subtitle>Subtitle</subtitle>
+        </listItemLockup>
+      </section>
+      <section>
+        <header>
+          <title>Custom lockup items</title>
+        </header>
+        <listItemLockup>
+          <title>Title</title>
+          <row class="customRightTextImage">
+            <text class="customRightText">Right</text>
+            <img src="resource://chevron" />
+          </row>
+        </listItemLockup>
+        <listItemLockup class="tallListItemLockup">
+          <title>Title</title>
+          <row class="customRow">
+            <text class="customRowText">Text 1</text>
+            <text class="customRowText">Text 2</text>
+          </row>
+        </listItemLockup>
+        <listItemLockup>
+          <title class="centerText">Title</title>
+          <subtitle class="centerText">Subtitle</subtitle>
+        </listItemLockup>
+        <listItemLockup class="tallListItemLockup">
+          <row class="leftAligned">
+            <img src="/resources/images/lockups/square_1.jpg" width="90" height="90" />
+            <text class="interImageText">vs</text>
+            <img src="/resources/images/lockups/square_2.jpg" width="90" height="90" />
+          </row>
+          <title>Title</title>
+          <decorationLabel>Right</decorationLabel>
+        </listItemLockup>
+        <listItemLockup style="height: 160;">
+          <img src="/resources/images/lockups/square_3.jpg" width="130" height="130" />
+          <title>Title</title>
+          <row class="customRow">
+            <text class="customRowText">Text 1</text>
+            <text class="customRowText">Text 2</text>
+          </row>
+          <text class="footerText">Space for footer text</text>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>

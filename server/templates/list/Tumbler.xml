@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<listTemplate>
+		<list>
+			<tumblerBar>
+				<tumblerItem numberOfItemsToCreate="5">
+					<title>Title 1</title>
+					<subtitle>5 Items</subtitle>
+				</tumblerItem>
+				<tumblerItem numberOfItemsToCreate="12">
+					<title>Title 2</title>
+					<subtitle>12 Items</subtitle>
+				</tumblerItem>
+				<tumblerItem numberOfItemsToCreate="9">
+					<title>Title 3</title>
+					<subtitle>9 Items</subtitle>
+				</tumblerItem>
+				<tumblerItem numberOfItemsToCreate="3">
+					<title>Title 4</title>
+					<subtitle>3 Items</subtitle>
+				</tumblerItem>
+			</tumblerBar>
+		</list>
+	</listTemplate>
+</document>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .3ColumnGrid {
+      tv-interitem-spacing: 48;
+    }
+    .5ColumnGrid {
+      tv-interitem-spacing: 50;
+    }
+    .6ColumnGrid {
+      tv-interitem-spacing: 48;
+    }
+    </style>
+  </head>
+  <stackTemplate>
+    <collectionList>
+      <carousel>
+        <section>
+          <lockup>
+            <img src="/resources/images/carousel/carousel_2.lcr" width="1740" height="500" />
+          </lockup>
+          <lockup>
+            <img src="/resources/images/carousel/carousel_3.lcr" width="1740" height="500" />
+          </lockup>
+          <lockup>
+            <img src="/resources/images/carousel/carousel_1.lcr" width="1740" height="500" />
+          </lockup>
+        </section>
+      </carousel>
+      <separator style="margin: 40 0 20">
+        <button>
+          <text>Options</text>
+          <badge width="31" height="14" style="margin: 0 0 0 10;" src="resource://button-dropdown" />
+        </button>
+      </separator>
+      <shelf class="6ColumnGrid">
+        <header>
+          <title>Movie Shelf (250x375, 6 Column Grid, 48 spacing)</title>
+        </header>
+        <section>
+          <lockup>
+            <img src="/resources/images/lockups/movie_1.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 1</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_2.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 2</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_3.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 3</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_4.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 4</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_5.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 5</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_6.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 6</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_7.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 7</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_1.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 8</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_2.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 9</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/movie_3.lcr" width="250" height="375" />
+            <title class="showTextOnHighlight">Title 10</title>
+          </lockup>
+        </section>
+      </shelf>
+      <shelf class="5ColumnGrid">
+        <header>
+          <title>TV Show and Music Shelf (308x308, 5 Column Grid, 50 spacing)</title>
+        </header>
+        <section>
+          <lockup>
+            <img src="/resources/images/lockups/square_1.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 1</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_2.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 2</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_3.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 3</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_4.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 4</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_5.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 5</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_6.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 6</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_7.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 7</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_8.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 8</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_9.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 9</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/square_10.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 10</title>
+          </lockup>
+        </section>
+      </shelf>
+      <shelf class="3ColumnGrid">
+        <header>
+          <title>Featured Content (548x250, 3 Column Grid, 48 spacing)</title>
+        </header>
+        <section>
+          <lockup>
+            <img src="/resources/images/lockups/featured_1.jpg" width="548" height="250" />
+            <title class="showTextOnHighlight">Title 1</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/featured_2.jpg" width="548" height="250" />
+            <title class="showTextOnHighlight">Title 2</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/featured_3.jpg" width="548" height="250" />
+            <title class="showTextOnHighlight">Title 3</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/featured_4.jpg" width="548" height="250" />
+            <title class="showTextOnHighlight">Title 4</title>
+          </lockup>
+          <lockup>
+            <img src="/resources/images/lockups/featured_5.jpg" width="548" height="250" />
+            <title class="showTextOnHighlight">Title 5</title>
+          </lockup>
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
+</document>
